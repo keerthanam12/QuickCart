@@ -1,5 +1,5 @@
 'use client'
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { assets } from "@/assets/assets";
 import OrderSummary from "@/components/OrderSummary";
 import Image from "next/image";
@@ -9,6 +9,14 @@ import { useAppContext } from "@/context/AppContext";
 const Cart = () => {
 
   const { products, router, cartItems, addToCart, updateCartQuantity, getCartCount } = useAppContext();
+
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) return null;
 
   return (
     <>

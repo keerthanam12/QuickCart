@@ -9,20 +9,14 @@ export async function POST(request) {
         const {userId} = getAuth(request)
         const { address, items } = await request.json();
 
-        if (!userId || !address || items.length === 0) {
+        if (!address || items.length === 0) {
             return NextResponse.json({ success: false, message: 'Invalid data' });
         }
 
-        const amountArray = await Promise.all(items.map(async (item) => {
+        const amount = await items.reduce(async (acc, item) => {
             const product = await Product.findById(item.product);
-            return product ? product.offerPrice * item.quantity : 0;
-        }));
-
-        const amount = amountArray.reduce((acc, price) => acc + price, 0);
-
-        if (amount === 0) {
-            return NextResponse.json({ success: false, message: 'Order amount is zero' });
-        }
+            return acc + product.offerPrice * item.quantity;
+        }, 0)
 
         await inngest.send({
             name: 'order/created',

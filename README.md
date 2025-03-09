@@ -90,7 +90,7 @@ QuickCart is a dynamic E-Commerce Website designed to provide a seamless shoppin
   * Complete the installation until finish.
 
 ## ⚡ Need more Toturial?
-  * [Node.js Official Site](https://expressjs.com/)
+  * [Express.js Official Site](https://expressjs.com/)
 
 <p align="center"><a href="https://www.mongodb.com/" target="_blank"><img src="https://github.com/keerthanam12/Link-Shortener/assets/145577874/776b0b68-91dc-455a-905e-87de54e47d49" width="200" alt="MongoDB Logo"></a></p>
 
@@ -109,24 +109,23 @@ QuickCart is a dynamic E-Commerce Website designed to provide a seamless shoppin
 ## ⚡ Need more Toturial?
   * [MongoDB Official Site](https://www.mongodb.com/)
 
-<p align="center"><a href="https://react.dev/" target="_blank"><img src="https://github.com/keerthanam12/Online-Code-Editor/assets/145577874/39e82f16-f543-4865-9702-ec4e502ad67e" width="200" alt="React Logo"></a></p>
+<p align="center"><a href="https://nextjs.org/" target="_blank"><img src="https://github.com/user-attachments/assets/482b7d01-a9c0-46df-9d7a-51393489d073" width="200" alt="Next.js Logo"></a></p>
 
 <p align="center">
-<a href="https://packagist.org/packages/react/react"><img src="https://img.shields.io/packagist/dt/react/react" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/react/react"><img src="https://img.shields.io/packagist/v/react/react" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/amazeelabs/silverback_external_preview"><img src="https://img.shields.io/packagist/dt/amazeelabs/silverback_external_preview" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/amazeelabs/silverback_external_preview"><img src="https://img.shields.io/packagist/v/amazeelabs/silverback_external_preview" alt="Latest Stable Version"></a>
 </p>
 
-## ⚡ About React
-  * Install and setup `react` package
-  * Download `react` from here https://react.dev/learn/installation
-  * To install `react` before install `node.js` and `npm` already in your environment.
-  * Then create new app use the following command `npm install -g create-react-app` and `create-react-app --version`
-  * Checking and updating `react` version the following command `react -v`
+## ⚡ About Next.js
+  * Install and setup `next.js` package
+  * Download `next.js` from here https://nextjs.org/docs/app/getting-started/installation
+  * To install `next.js` before install `node.js` and `npm` already in your environment.
+  * Then create new app use the following command `npx create-next-app@latest`
+  * Checking and updating `next.js` version the following command `npx next --version`
   * Complete the installation until finish.
 
 ## ⚡ Need more Toturial?
-  * [React Official Site](https://react.dev/)
-
+  * [Next.js Official Site](https://nextjs.org/)
 
 <p align="center"><a href="https://tailwindcss.com/" target="_blank"><img src="https://github.com/user-attachments/assets/284f2ec0-029c-4c37-a9ca-6aa98b660371" width="300" alt="Tailwind CSS Logo"></a></p>
 
